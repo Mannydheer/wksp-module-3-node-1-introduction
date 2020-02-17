@@ -35,3 +35,23 @@ _Let's create a server right now!_
 Let's explore the workshop repository together.
 
 ---
+
+```
+index.js file. 
+const express =  require('express');
+
+// set up server.
+const app = express(); 
+//Need to execute a get command - get the data.
+
+app.get('/', function(req, res){
+    res.send('hello');
+}); 
+//Set a specific port on the computer. React = port 3000. 
+app.listen(4000);
+
+// HOW DO I START IT!
+
+
+
+```
