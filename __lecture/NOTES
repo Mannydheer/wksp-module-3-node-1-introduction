@@ -1,0 +1,54 @@
+```
+ What is the difference between the two notations (<%- and <%= )? Check how each one is rendered
+
+
+1
+-->  <%- include ('<PATH_TO_EJS_FILE', {sentence:sentence}) %>
+- It will grab it and inject it in its place. 
+
+2.
+
+
+question 4:
+//
+What notation de we use to run JS snippets inside of an .ejs file?
+
+const array = ['one','two', 'three']
+
+<ul>
+    <% array.forEach(element => {
+        %> 
+        <li> <%= element %></li>
+        <% }); %>
+</ul>
+        
+```
+
+
+
+EXPRESS:
+
+--> What express routing method did we use yesterday?
+- .get  (any browser using site want to get)
+--> What are the parameters of the .get method?
+app.get(path, function(request, response) {})
+
+What is the request?
+- What we are requesting?
+What is the response?
+-What we want to send back?
+
+inside {} is what will be passed? //
+
+
+Wgat us tge nubunyn amount of code to set up an express server?
+
+const express = require('express'); //import the module. 
+//then instantiate 
+const app = express(); // instatntiate express. 
+
+app.get('/hello', function(request, response) {
+response.send('hello');
+});
+
+app.listen(8000), console.log('Server is up! Port 8000);
