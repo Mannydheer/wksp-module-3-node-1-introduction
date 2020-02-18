@@ -78,3 +78,5 @@ If you look in the `package.json` file you will see all of the external dependen
 - When you run `yarn install`, yarn reads the `package.json` and downloads the dependencies in the `node_modules` folder. It will also generate a `yarn.lock` file if it doesn't already exist; if it does exist, it will defer to the version numbers in that file, rather than taking the most recent version available remotely. This is to ensure compatibility and prevent _breaking_ changes in dependencies from, well, breaking our app.
 - `ejs` files are basically supercharged `html` files. We can pass in JavaScript values. It allows us to do TONS of cool stuff. 😀
 - Use the `styles.css` to add some zing to your exercises
+
+

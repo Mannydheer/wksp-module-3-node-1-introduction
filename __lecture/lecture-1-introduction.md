@@ -11,6 +11,11 @@
 Server-side rendering VS. Client-side rendering [🔗](https://www.codeconquest.com/website/client-side-vs-server-side/)
 
 _thoughts?_
+```
+Client side is the browser:
+Html CSS and Javascript is all browser side. 
+
+```
 
 ---
 

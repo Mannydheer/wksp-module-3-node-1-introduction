@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-  
+
 header {
     flex: 0 0 60px;
     display: flex;
@@ -16,13 +16,16 @@ header {
     border-bottom: 1px solid #808080;
     padding: 0 24px;
 }
-  
+
 .main {
     flex: 1 0 auto;
     padding: 24px;
 }
 
-ol, ul { margin-bottom: 1em; }
+ol,
+ul {
+    margin-bottom: 1em;
+}
 
 .content {
     display: flex;
@@ -50,4 +53,44 @@ ol, ul { margin-bottom: 1em; }
         justify-content: space-between;
         min-height: 500px;
     }
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #707070;
+}
+
+.lists {
+    padding: 20px;
+}
+
+.anchors {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.anchors:hover {
+    background-color: tomato;
+    transition: 0.5s;
+
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+header {
+    border-bottom: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150px;
+    color: lightpink;
+    padding-top: 15%;
+
+
+
 }
